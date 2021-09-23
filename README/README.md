@@ -80,7 +80,5 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the vn-setup file to /etc/ansible
-- Update the hosts file to include "<Internal-IP of desired machine> ansible_python_interpreter=/usr/bin/python3" within the section titled [webservers]
-- Run the playbook, and navigate to "http://<Public-IP of ElkVM>:5601/app/kibana" to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+- Update the hosts file to include "[Internal-IP of desired machine] ansible_python_interpreter=/usr/bin/python3" within the section titled [webservers]
+- Run the playbook, and navigate to "http://[Public-IP of ElkVM]:5601/app/kibana" to check that the installation worked as expected.
