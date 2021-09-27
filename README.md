@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!(diagrams/Web_VM_Diagram.jpg)
+![sometext](Diagrams/Web_VM_Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above, or alternatively select portions of the VNSetup_Ansible_Playbook.txt file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -38,7 +38,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-24.6.27.133
+xx.x.xx.xxx
 
 Machines within the network can only be accessed by SSH connections from the Ansible container within Jump Box.
 
@@ -46,7 +46,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  | 24.6.27.133          |
+| Jump Box | No                  | xx.x.xx.xxx          |
 | Web-1/2/3| No                  | 10.0.0.4             |
 | RedElk   | No                  | 10.0.0.4             |
 
@@ -61,7 +61,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/docker_ps_output.jpg)
+![sometext](Successes/docker_ps_output.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
